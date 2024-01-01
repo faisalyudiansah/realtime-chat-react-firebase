@@ -1,5 +1,5 @@
 import React from 'react'
-import NavbarSideBar from './NavbarSideBar'
+import NavbarSideBar from './NavbarSidebar'
 
 function Sidebar() {
   return (
