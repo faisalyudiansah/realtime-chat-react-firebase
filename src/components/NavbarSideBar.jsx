@@ -10,7 +10,7 @@ const NavbarSidebar = () => {
   return (
     <>
       <Navbar className='sticky rounded-r-none rounded-b-none border-none'>
-        <div className="flex items-center justify-between text-black">
+        <div className="flex items-center justify-between text-black h-10">
           <div className='-ml-4'>
             <Typography
               as="a"
