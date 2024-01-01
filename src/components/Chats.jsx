@@ -1,6 +1,5 @@
 import React from 'react'
 import {
-  Input,
   Avatar,
   Typography,
 } from "@material-tailwind/react";
