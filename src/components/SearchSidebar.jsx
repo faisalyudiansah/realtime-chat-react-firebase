@@ -2,6 +2,7 @@ import React from 'react';
 import {
   Input,
   Avatar,
+  Typography,
 } from "@material-tailwind/react";
 import { FaSearch } from "react-icons/fa";
 
@@ -12,7 +13,7 @@ const SearchSidebar = () => {
         <Input
           type='text'
           className='rounded-none border-none focus:border-none text-green-100 '
-          placeholder='find a user...'
+          placeholder='Find a user...'
           icon={<FaSearch className='text-green-100' />}
         />
       </div>
@@ -22,7 +23,7 @@ const SearchSidebar = () => {
           src="https://docs.material-tailwind.com/img/face-2.jpg"
           alt="avatar" />
         <div className='text-green-100'>
-          <span>Cristiano Ronaldo</span>
+          <Typography as="a" className='text-sm font-medium'>Cristiano Ronaldo</Typography>
         </div>
       </div>
     </div>
