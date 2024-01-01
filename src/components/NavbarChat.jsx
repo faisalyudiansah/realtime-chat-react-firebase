@@ -6,7 +6,7 @@ const NavbarChat = () => {
   return (
     <Navbar className='sticky rounded-l-none rounded-b-none border-none'>
       <div className="flex items-center justify-between text-black">
-        <div className='-ml-4'>
+        <div className=''>
           <Typography
             as="a"
             className="font-medium"
